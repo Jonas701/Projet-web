@@ -20,28 +20,28 @@ class User
 
     public function getID()
     {
-        // TODO
+        return $ID;
     }
 
     public function getUsername()
     {
-        // TODO
+        return $username;
     }
 
     public function getPassword()
     {
-        // TODO
+        return $password;
     }
 
     public function getName()
     {
-        // TODO
+        return $fisrtname.$lastname;
         // "Firstname Lastname"
     }
 
     public function getEmail()
     {
-        // TODO
+        return $email;
     }
 
     public function insert($dbh)
